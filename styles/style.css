@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Fira Sans", serif;
+}
+
+/* shared style */
+
+.Common-button{
+    color: rgb(255, 255, 255);
+font-size: 16px;
+font-weight: 600;
+line-height: 20px;
+text-align: center;
+border-radius: 8px;
+background: rgb(0, 106, 80);
+border: none;
+outline: none;
+padding: 8px 12px;
+margin-top: 15px;
+}
+               /* banner related style */
+    
+.banner-bg{
+    background: rgb(198, 228, 214);
+    border-radius: 24px;
+    width: 1224px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+}             
+.banner-container{
+    padding: 70px 90px;
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    align-items: center;
+    }
+
+.banner-content{
+
+}
+.banner-paragraph{
+    color: rgba(14, 14, 14, 0.5);
+font-size: 22px;
+font-weight: 500;
+text-align: left;
+}
+.banner-title{
+    color: rgb(14, 14, 14);
+font-size: 52px;
+font-weight: 700;
+text-align: left;
+margin-top: 15px;
+}
+.banner-img img{
+    width: 400px;
+}
