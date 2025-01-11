@@ -342,4 +342,18 @@ outline: none;
 border: none;
 }
 
+.common-text{
+    text-align: center;
+}
+
+.footer-container >hr{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.font-icon{
+    text-align: center;
+    
+}
 
