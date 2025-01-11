@@ -3,7 +3,11 @@
 *{
     padding: 0;
     margin: 0;
+    
     font-family: "Fira Sans", serif;
+}
+body{
+    background-color: #F1F1F3
 }
 
 /* shared style */
@@ -21,12 +25,34 @@ outline: none;
 padding: 8px 12px;
 margin-top: 15px;
 }
+
+.common-title{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 37px;
+font-weight: 700;
+text-align: left;
+}
+
+.common-paragraph{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 14px;
+font-weight: 400;
+text-align: left;
+margin-top: 24px;
+}
+
+section{
+    margin: 40px 30px;
+
+}
                /* banner related style */
     
 .banner-bg{
     background: rgb(198, 228, 214);
     border-radius: 24px;
-    width: 1224px;
+    width: 1200px;
     height: auto;
     margin: 0 auto;
     margin-top: 50px;
@@ -57,4 +83,118 @@ margin-top: 15px;
 }
 .banner-img img{
     width: 400px;
+}
+
+/* pillar card */
+
+.pillars-card-container{
+   display: flex;
+   margin-top: 40px;
+   justify-content: space-evenly;
+   align-items: center;
+   gap: 20px;
+   
+}
+
+.pillar-card{
+    box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+padding: 24px;
+background: rgb(255, 255, 255);
+outline: none;
+}
+.pillar-subtitle{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 12px;
+    margin-top: 15px;
+} 
+.pillar-paragraph{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 14px;
+font-weight: 400;
+text-align: left;
+}
+
+/* vision part */
+
+.vision-card-container{
+    display: flex;
+    gap: 24px;
+    margin-top: 40px;
+}
+
+.vision-card-one{
+box-sizing: border-box;
+border-radius: 16px;
+background: rgba(84, 144, 245, 0.2);
+padding: 32px;
+}
+.vision-card-two{
+box-sizing: border-box;
+border-radius: 16px;
+background: rgb(198, 228, 214);
+padding: 32px;
+}
+.vision-card-three{
+box-sizing: border-box;
+border-radius: 16px;
+background: rgb(247, 235, 207);
+padding: 32px;
+
+}
+
+.card-button{
+    border-radius: 8px;
+background: rgb(84, 144, 245);
+color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 14px;
+font-weight: 500;
+text-align: left;
+padding: 6px 10px;
+border: none;
+outline: none;
+margin-top: 16px;
+}
+.card-button-two{
+    border-radius: 8px;
+    background: rgb(9, 161, 92);
+color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 14px;
+font-weight: 500;
+text-align: left;
+padding: 6px 10px;
+border: none;
+outline: none;
+margin-top: 16px;
+}
+
+.card-button-three{
+    border-radius: 8px;
+    background: rgb(255, 194, 57);
+color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 14px;
+font-weight: 500;
+text-align: left;
+padding: 6px 10px;
+border: none;
+outline: none;
+margin-top: 16px;
+}
+
+.vision-subtitle{
+color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 18px;
+font-weight: 700;
+text-align: left;
+margin-top: 14px;
 }
